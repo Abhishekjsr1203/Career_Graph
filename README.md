@@ -287,7 +287,7 @@ python app.py
 The Flask API will run at:
 
 ```text
-http://127.0.0.1:5000
+https://careergraph-backend-pyim.onrender.com
 ```
 
 ## Running the Frontend
@@ -341,7 +341,7 @@ Returns skills and the career roles associated with them.
 Add the Home page screenshot here.
 
 ```text
-screenshots/home.png
+![Home Page](screenshots/home.png)
 ```
 
 ### Explore Roles
@@ -349,7 +349,7 @@ screenshots/home.png
 Add the Explore Roles screenshot here.
 
 ```text
-screenshots/explore-roles.png
+![Explore-Roles page](screenshots/explore-roles.png)
 ```
 
 ### Role Details
@@ -357,7 +357,7 @@ screenshots/explore-roles.png
 Add the Role Details screenshot here.
 
 ```text
-screenshots/role-details.png
+![Role-Details Page](screenshots/role-details.png)
 ```
 
 ### Skills Explorer
@@ -365,7 +365,7 @@ screenshots/role-details.png
 Add the Skills Explorer screenshot here.
 
 ```text
-screenshots/skills.png
+![Skill Page](screenshots/skills.png)
 ```
 
 ### Graph Explorer
@@ -373,7 +373,7 @@ screenshots/skills.png
 Add the Graph Explorer screenshot here.
 
 ```text
-screenshots/graph-explorer.png
+![Graph-Explorer page](screenshots/graph-explorer.png)
 ```
 
 ### CognoDB Graph
@@ -381,7 +381,7 @@ screenshots/graph-explorer.png
 Add a screenshot showing the graph database relationships here.
 
 ```text
-screenshots/cognodb-graph.png
+![Cognodb Page](screenshots/cognodb-graph.png)
 ```
 
 ## Application Architecture

@@ -6,7 +6,7 @@ const GraphExplorer = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/graph")
+    fetch("https://careergraph-backend-pyim.onrender.com/api/graph")
       .then((response) => response.json())
       .then((data) => {
         setGraph(data);

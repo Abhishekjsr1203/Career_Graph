@@ -19,7 +19,7 @@ const RoleDetails = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/api/roles/${id}`)
+    fetch(`https://careergraph-backend-pyim.onrender.com/api/roles/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Role not found");

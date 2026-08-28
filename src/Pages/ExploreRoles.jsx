@@ -11,7 +11,7 @@ const ExploreRoles = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/roles")
+    fetch("https://careergraph-backend-pyim.onrender.com/api/roles")
       .then((response) => response.json())
       .then((data) => {
   console.log("Roles received:", data);
